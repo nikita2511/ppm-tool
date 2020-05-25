@@ -98,6 +98,6 @@ public class ProjectTask {
 	}
     @PreUpdate
     public void onUpdate() {
-    	this.updatedAt=new Date();
+    	this.update_At=new Date();
     }
 }
