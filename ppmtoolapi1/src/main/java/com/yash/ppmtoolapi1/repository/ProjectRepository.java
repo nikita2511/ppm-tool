@@ -4,6 +4,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import com.yash.ppmtoolapi1.domain.Project;
+import com.yash.ppmtoolapi1.domain.ProjectTask;
 
 @Repository
 public interface ProjectRepository extends CrudRepository<Project,Long> {
@@ -17,5 +18,6 @@ public interface ProjectRepository extends CrudRepository<Project,Long> {
 	
 	@Override
 	Iterable<Project> findAll();
+
 	
 }
